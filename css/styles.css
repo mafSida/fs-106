@@ -32,8 +32,51 @@ address {
 
 /* HEADER */
 
-/* SECTION */
-/* SECTION */
+.header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11111;
+  letter-spacing: -0.03em;
+  color: #111;
+}
+
+.hl-italic {
+  font-style: italic;
+}
+
+.header-menu .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14286;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+/* SECTION HERO*/
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21429;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+/* SECTION FEATURES*/
+
+.features .title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+
+.features .description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
 /* SECTION */
 /* SECTION */
 /* SECTION */

@@ -17,54 +17,72 @@
     />
   </head>
   <body>
-    <header>
-      <a href="#"
-        >Simply Chocolate <img src="./img/choc-icon.svg" alt="logo"
-      /></a>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">How it’s made?</a></li>
-          <li><a href="#">Chocolate is loved</a></li>
+    <header class="header">
+      <nav class="header-nav">
+        <a class="header-logo" href="#">
+          <span class="hl-italic">Simply</span> Chocolate
+          <img class="hlogo-img" src="./img/choc-icon.svg" alt="logo"
+        /></a>
+        <ul class="header-menu">
+          <li class="hm-item"><a class="link" href="#">Home</a></li>
+          <li class="hm-item"><a class="link" href="#">How it’s made?</a></li>
+          <li class="hm-item">
+            <a class="link" href="#">Chocolate is loved</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a href="#" target="_blank" rel="noopener noreferrer nofollow"
-            ><img src="./img/instagram.svg" alt="instagram icon"
+      <ul class="header-socials">
+        <li class="hs-item">
+          <a
+            class="link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            ><img
+              class="hs-icon"
+              src="./img/instagram.svg"
+              alt="instagram icon"
           /></a>
         </li>
-        <li>
-          <a href="#" target="_blank" rel="noopener noreferrer nofollow"
-            ><img src="./img/facebook.svg" alt="facebook icon"
+        <li class="hs-item">
+          <a
+            class="link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            ><img class="hs-icon" src="./img/facebook.svg" alt="facebook icon"
           /></a>
         </li>
-        <li>
-          <a href="#" target="_blank" rel="noopener noreferrer nofollow"
-            ><img src="./img/twitter.svg" alt="twitter icon"
+        <li class="hs-item">
+          <a
+            class="link"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer nofollow"
+            ><img class="hs-icon" src="./img/twitter.svg" alt="twitter icon"
           /></a>
         </li>
       </ul>
     </header>
     <main>
-      <section>
-        <h1>
+      <section class="hero">
+        <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
         <!-- Інтерактивна кнопка -->
-        <button type="button">Buy now</button>
+        <button class="hbuy-btn" type="button">Buy now</button>
+        <!-- Кнопка скрол на секцію made-->
+        <a class="hmade-btn" href="#made">How it's made</a>
         <!-- Кнопка скрол на секцію -->
-        <a href="#made">How it's made</a>
-        <!-- Кнопка скрол на секцію -->
-        <a href="#">Scroll</a>
+        <a class="hscroll-btn" href="#">Scroll</a>
       </section>
-      <section>
-        <!-- <h2>Features</h2> -->
+      <section class="features">
+        <!-- <h2 class="features-title">Features</h2> -->
         <ul>
           <li>
-            <h3>Unsurpassed taste</h3>
-            <p>
+            <h3 class="title">Unsurpassed taste</h3>
+            <p class="description">
               Crafted with the finest quality cocoa beans and a dedication to
               perfection, each bite is a decadent experience that simply cannot
               be matched. Savor the richness and complexity of our Unsurpassed
@@ -72,8 +90,8 @@
             </p>
           </li>
           <li>
-            <h3>Affordable price</h3>
-            <p>
+            <h3 class="title">Affordable price</h3>
+            <p class="description">
               Indulge in high-quality chocolate without breaking the bank with
               Simply Chocolate's selection of affordable treats. Enjoy
               mouth-watering truffles and velvety chocolate bars without
@@ -82,8 +100,8 @@
             </p>
           </li>
           <li>
-            <h3>Own production</h3>
-            <p>
+            <h3 class="title">Own production</h3>
+            <p class="description">
               We take pride in our own production process, ensuring that every
               step is carefully crafted to perfection. From selecting the finest
               ingredients to handcrafting each piece, our attention to detail is
@@ -92,7 +110,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="ingredients">
         <h2>IT ALL ADDS UP TO ONE EXCEPTIONAL <span>TASTE</span> SENSATION</h2>
         <p>
           At Simply Chocolate, we believe that the secret to exceptional
@@ -166,7 +184,7 @@
           </li>
         </ul>
       </section>
-      <section id="made">
+      <section class="made" id="made">
         <h2>hOW IT’S <span>made?</span></h2>
         <img
           src="./img/made-img.jpg"
@@ -200,7 +218,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="products">
         <h2>Our <span>pRODUCTS</span></h2>
         <ul>
           <li>
@@ -285,7 +303,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="sellers">
         <h2><span>tOp</span> Sellers</h2>
         <ul>
           <li>
@@ -302,7 +320,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="reviews">
         <h2><span>chocolate</span> is loved</h2>
         <ul>
           <li>
@@ -335,7 +353,7 @@
         <button type="button">Leave a review</button>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <p>Chocolate a delicious cure for a bad day</p>
       <p>Social networks</p>
       <ul>
