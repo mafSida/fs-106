@@ -34,6 +34,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -61,16 +65,36 @@ button {
   padding-bottom: 32px;
 }
 
+.header .container {
+  display: flex;
+}
+
+.header-nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-right: 90px;
+}
+
 .header-logo {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.11;
   letter-spacing: -0.03em;
   color: #111;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
 }
 
 .hl-italic {
   font-style: italic;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .header-menu .link {
@@ -84,6 +108,12 @@ button {
 /* .header-menu .link:hover {
   color: #fd9222;
 } */
+
+.header-socials {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
 
 /* SECTION HERO*/
 
@@ -107,15 +137,31 @@ button {
   max-width: 484px;
 }
 
+.btns-container {
+  display: flex;
+  align-items: center;
+}
+
 .hbuy-btn {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
+  background: #fd9222;
+  border: none;
+  border-radius: 100px;
+  padding: 14px 40px;
+  margin-right: 14px;
+  /* width: 144px;
+  height: 45px; */
 }
 .hmade-btn {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  padding: 14px 40px;
+  background-color: transparent;
 }
 .hscroll-btn {
   font-weight: 500;
@@ -123,6 +169,7 @@ button {
   line-height: 1.28;
   letter-spacing: -0.03em;
   color: #fff;
+  margin-left: auto;
 }
 
 /* SECTION FEATURES*/
@@ -133,14 +180,21 @@ button {
   padding-bottom: 50px;
 }
 .features-list {
+  display: flex;
+  gap: 88px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
+
 .features-item {
+  width: calc((100% - 2 * 88px) / 3);
 }
 
 .features .title {
   font-weight: 600;
   font-size: 18px;
   color: #fff;
+  margin-bottom: 18px;
 }
 
 .features .description {
