@@ -237,6 +237,13 @@ img {
 }
 
 .ingredients-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 32px;
+}
+
+.ingredients-img {
+  margin-bottom: 36px;
 }
 
 .ingredients-list .description {
@@ -251,14 +258,13 @@ img {
 }
 
 .ingredients-item {
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 1.28571;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  color: #fff;
+  background-color: #fd9222;
+  border-radius: 15px;
+  width: calc((100% - 3 * 32px) / 4);
+  padding: 28px 23px;
 }
 .ingredients-item .title {
+  padding-left: 5px;
 }
 
 /* SECTION MADE*/
